@@ -1,41 +1,5 @@
 # CONFIGURATION SPECIFICATIONS
 
-## I. Introduction
-
-Creating a GeoTag-X project requires prior knowledge of the HTML (Hypertext Markup Language), JavaScript, and/or CSS (Cascading Style Sheets) programming languages. Depending on the size and scope of a project, the creation process can be very time-consuming, error-prone, even nigh impossible for anyone with little to no knowledge of the aforementioned languages.
-
-To help project creators, the PyBossa platform provides pre-built templates for different use-cases that can be used as a foundation for new projects.
-
-So why not create a template for geotagx projects? This is not an absured idea as geotag-x projects have an identical look and feel, distinct only in their questions and their subjects (photos, videos, audio).
-
-however, with a template, a project creator would still have to edit the html to suit their project
-
-if a template is modified (bug fixes, improvements, etc.), every single project would need to make the same modifications in their projects
-
-
-
-while this approach makes sense for general-purpose crowdsourcing projects, it doesn't really bode well in the case of geotag-x as most projects are only distinct in their questions, all the while retaining an identical look-and-feel.
-
-
-
-
-however geotagx projects are very identical, safe the questions
-and while we can copy a template of an already working project, editing it can be somewhat tedious.
-
-
-
-
-
-
-As an alternative to the HTML, JavaScript and CSS trio, this document will introduce a set of simpler, well-defined specifications, namely
-- the **project configuration** specification,
-- the **task presenter configuration** specification, and
-- the **tutorial configuration** specification.
-
-By providing tools that can generate HTML, JavaScript and CSS code from these specifications, the creation process becomes simpler and much quicker since project creators no longer need to worry about technical details, and can focus more on the content of their projects.
-
-
-
 ## II. Project Configuration
 
 The project configuration--based on the classic PyBossa project configuration--has been extended to include a new `repository` property in addition to the required `name`, `short_name`, and `description` properties.
