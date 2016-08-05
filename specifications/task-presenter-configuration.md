@@ -41,7 +41,17 @@ For the purpose of this specification, the task presenter configuration will adh
 ## VI. Task Presenter Questionnaire
 ### VI.1. Questionnaire Index
 ### VI.2. Questions
+
+
+
 #### VI.2.a. Keys
+
+A key is a unique non-empty string that identifies a question composed strictly of alphanumeric characters (a-Z, A-Z, 0-9), hyphens (-) or underscores (_).
+
+Keys that begin with an underscore, e.g. `_end`, `__next`, or even `_`, are reserved for internal use and are therefore invalid question keys.
+
+
+
 #### VI.2.b. Titles
 #### VI.2.c. Help
 #### VI.2.d. Input

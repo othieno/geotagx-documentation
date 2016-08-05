@@ -71,13 +71,6 @@ A questionnaire is a list of entries (questions) where each is comprised of
 * **branch parameters** to determine the next question
 
 
-### III.2.a. Question Keys
-
-A key is a unique non-empty string that identifies a question. It is strictly composed of alphanumeric characters (a-Z, A-Z, 0-9), hyphens (-) or underscores (_).
-
-Strings that adhere to the aforementioned conditions but begin with an underscore, e.g. `_end`, `_next`, or even `_`, are reserved for internal use and are therefore invalid question keys.
-
-
 ### III.2.b. Question Titles
 A question title is the actual question that will be presented to a user. It must be a non-empty string, or [normalized][normalized_string] in the case of a multilingual questionnaire.
 
